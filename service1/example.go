@@ -17,3 +17,10 @@ func pow(base, power int) int {
 	return result
 
 }
+
+func doNothing() {
+	a := 2
+
+	_ = a
+
+}

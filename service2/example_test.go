@@ -20,3 +20,12 @@ func TestPow(t *testing.T) {
 		t.Errorf("wrong, got %v!", result)
 	}
 }
+
+func TestDivide(t *testing.T) {
+
+	result := divide(2, 2)
+
+	if result != 1 {
+		t.Errorf("wrong, got %v!", result)
+	}
+}
