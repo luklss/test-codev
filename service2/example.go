@@ -1,4 +1,4 @@
-package service1
+package service2
 
 func sum(a, b int) int {
 	return a + b
