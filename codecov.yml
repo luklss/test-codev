@@ -26,5 +26,5 @@ flags:
   service2:
     paths:
       - service2/
-    carryforward: true
+    carryforward: false
 
