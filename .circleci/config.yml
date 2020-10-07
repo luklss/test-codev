@@ -8,7 +8,7 @@ jobs:
     working_directory: /go/src/github.com/luklss/test-codev
     steps:
       - checkout
-      - make test
+      - run: make test
   codecov:
     build:
       steps:
