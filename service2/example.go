@@ -12,10 +12,10 @@ func divide(a, b int) int {
 	return a / b
 }
 
-func pow(a, b int) int {
+func pow(base, power int) int {
 	result := 1
-	for i := 0; i < b; i++ {
-		result += result * a
+	for i := 0; i < power; i++ {
+		result = result * base
 	}
 
 	return result

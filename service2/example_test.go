@@ -11,3 +11,12 @@ func TestSum(t *testing.T) {
 	}
 
 }
+
+func TestPow(t *testing.T) {
+
+	result := pow(2, 4)
+
+	if result != 16 {
+		t.Errorf("wrong, got %v!", result)
+	}
+}
