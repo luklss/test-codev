@@ -18,4 +18,6 @@ func pow(a, b int) int {
 		result += result * a
 	}
 
+	return result
+
 }
