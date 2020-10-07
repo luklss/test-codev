@@ -22,6 +22,11 @@ func TestMultiply(t *testing.T) {
 
 }
 
+func TestDoNothing(t *testing.T) {
+	doNothing()
+
+}
+
 func TestPow(t *testing.T) {
 
 	result := pow(2, 4)
