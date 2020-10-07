@@ -1,0 +1,30 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+      service1:
+        target: auto
+        flags:
+          - service1
+      service2:
+        target: auto
+        flags:
+          - service2
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: false  
+  require_base: yes
+  require_head: yes       
+  branches: null
+flags:
+  service1:
+    paths:
+      - service1/
+    carryforward: false
+  service2:
+    paths:
+      - service2/
+    carryforward: false
+
