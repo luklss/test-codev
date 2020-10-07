@@ -8,13 +8,18 @@ jobs:
     working_directory: /go/src/github.com/luklss/test-codev
     steps:
       - checkout
-      - run: cd /go/src/github.com/luklss/test-codev/service1
-      - run: make test
+      - test1: 
+        command: |
+          cd /go/src/github.com/luklss/test-codev/service1
+          make test
       - codecov/upload:
-          file: coverage.txt
+          file: service1/coverage.txt
           flags: service1
-      - run: cd /go/src/github.com/luklss/test-codev/service2
-      - run: make test
+      - test2:
+        command: |
+          cd /go/src/github.com/luklss/test-codev/service2
+          make test
       - codecov/upload:
-          file: coverage.txt
+          file: service2/coverage.txt
           flags: service2
+
