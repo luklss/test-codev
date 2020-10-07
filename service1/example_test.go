@@ -11,3 +11,13 @@ func TestSum(t *testing.T) {
 	}
 
 }
+
+func TestMultiply(t *testing.T) {
+
+	result := multiply(1, 3)
+
+	if result != 3 {
+		t.Error("wrong!")
+	}
+
+}

@@ -1,0 +1,7 @@
+
+mode: atomic
+github.com/luklss/test-codev/service1/example.go:3.24,5.2 1 1
+github.com/luklss/test-codev/service1/example.go:7.29,9.2 1 1
+mode: atomic
+github.com/luklss/test-codev/service2/example.go:3.24,5.2 1 1
+github.com/luklss/test-codev/service2/example.go:7.29,9.2 1 0
