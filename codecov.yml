@@ -21,10 +21,10 @@ comment:
 flags:
   moduleA:
     paths:
-      - service1
+      - service1/example.go
     carryforward: false
   moduleB:
     paths:
-      - service2
+      - service2/example.go
     carryforward: true
 
