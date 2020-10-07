@@ -21,3 +21,8 @@ func pow(base, power int) int {
 	return result
 
 }
+
+func doNothing() {
+	a := 5
+	_ = a
+}
