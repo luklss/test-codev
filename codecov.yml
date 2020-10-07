@@ -3,11 +3,11 @@ coverage:
     project:
       default:
         target: auto
-      moduleA:
+      service1:
         target: auto
         flags:
           - service1
-      moduleB:
+      service2:
         target: auto
         flags:
           - service2
@@ -19,12 +19,12 @@ comment:
   require_head: yes       
   branches: null
 flags:
-  moduleA:
+  service1:
     paths:
-      - service1/example.go
+      - service1/
     carryforward: false
-  moduleB:
+  service2:
     paths:
-      - service2/example.go
+      - service2/
     carryforward: true
 
